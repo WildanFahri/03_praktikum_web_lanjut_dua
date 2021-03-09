@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Motor Website Template</title>
   <meta name="description" content="">
-<!-- 
+<!--
 Motor Template
 http://www.templatemo.com/tm-463-motor
 -->
@@ -32,7 +32,7 @@ http://www.templatemo.com/tm-463-motor
           <div class="loader-section section-right"></div>
         </div>
         <!-- End Preloader -->
-    
+
         <section class="templatemo-top-section">
           <div class="templatemo-header">
             <img class="templatemo-header-img" src="img/header.png" alt="Header">
@@ -49,7 +49,7 @@ http://www.templatemo.com/tm-463-motor
                  <li><a href="gallery.html">Gallery</a></li>
                  <li><a href="contact.html">Contact</a></li>
                </ul>
-             </nav> 
+             </nav>
            </div>
          </div>
          <div class="templatemo-welcome welcome-slider">
@@ -67,12 +67,12 @@ http://www.templatemo.com/tm-463-motor
                           	<span class="welcome-title-1">Performance</span>
                       		<span class="welcome-title-2">for the speed</span>
                         </h2>
-                        <p class="welcome-message">Motor is free Bootstrap v3.3.4 responsive web template provided 
-                by <span class="blue">template</span><span class="green">mo</span>.com website. You can download, 
-                modify and use this for your website projects. Please tell your friends about our templates. 
+                        <p class="welcome-message">Motor is free Bootstrap v3.3.4 responsive web template provided
+                by <span class="blue">template</span><span class="green">mo</span>.com website. You can download,
+                modify and use this for your website projects. Please tell your friends about our templates.
                 Thank you for visiting. Have fun!</p>
-                      </div>              
-                    </div>  
+                      </div>
+                    </div>
                   </li>
                   <li>
                     <div class="about-slider">
@@ -85,65 +85,68 @@ http://www.templatemo.com/tm-463-motor
                           <span class="welcome-title-2">the fast &amp; best</span>
                         </h2>
                         <p class="welcome-message">Lorem ipsum dolor sit amet, consectetuer adipiscing elit dori. Aenean commodo ligula eget. Aenean massa. Cumdent sociis natoque penatibus et magnis dis parturient montes, sor ind nascetur ridiculus mus. Lorem ipsum dolor sit amet dipiscing elit dori.</p>
-                      </div>              
-                    </div>  
+                      </div>
+                    </div>
                   </li>
                 </ul>
-              </div>                          
-            </div>    
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
     <!--Main content-->
-    <section class="container margin-bottom-50"> 
-         
+    <section class="container margin-bottom-50">
+
       <div class="about-container">
-      
+
         <div class="about-container-left">
           <img src="img/about/2.jpg" alt="Image" class="img-responsive">
         </div>
-        
+
         <div class="about-container-right">
           <h2 class="about-title">One Column</h2>
+          @foreach ($posts as $post)
+          <h4>{{$post->title }}</h4>
+          @endforeach
           <p class="about-description">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio.</p>
           <p class="about-description">Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</p>
           <a href="#" class="about-link">Duised sitDamet</a>
         </div>
-        
+
       </div>
 
       <div class="about-container-2 margin-bottom-50">
         <div class="about-container-inner">
           <h3 class="about-title-2">Two Columns</h3>
-          <img src="img/about/3.jpg" alt="Image" class="img-responsive margin-bottom-15">          
+          <img src="img/about/3.jpg" alt="Image" class="img-responsive margin-bottom-15">
           <p class="about-description">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
           <a href="#" class="about-link about-link-2">Details</a>
         </div>
         <div class="about-container-inner">
           <h3 class="about-title-2">Two Columns</h3>
-          <img src="img/about/4.jpg" alt="Image" class="img-responsive margin-bottom-15">          
+          <img src="img/about/4.jpg" alt="Image" class="img-responsive margin-bottom-15">
           <p class="about-description">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
           <a href="#" class="about-link about-link-2">Details</a>
         </div>
       </div>
-      
+
       <div class="about-container-2">
         <div class="services-container-inner">
           <h3 class="about-title-2">Three Columns</h3>
-          <img src="img/services-1.jpg" alt="Image" class="img-responsive margin-bottom-15">          
+          <img src="img/services-1.jpg" alt="Image" class="img-responsive margin-bottom-15">
           <p class="about-description">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
           <a href="#" class="about-link about-link-2">Details</a>
         </div>
         <div class="services-container-inner">
           <h3 class="about-title-2">Three Columns</h3>
-          <img src="img/services-1.jpg" alt="Image" class="img-responsive margin-bottom-15">          
+          <img src="img/services-1.jpg" alt="Image" class="img-responsive margin-bottom-15">
           <p class="about-description">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
           <a href="#" class="about-link about-link-2">Details</a>
         </div>
         <div class="services-container-inner">
           <h3 class="about-title-2">Three Columns</h3>
-          <img src="img/services-1.jpg" alt="Image" class="img-responsive margin-bottom-15">          
+          <img src="img/services-1.jpg" alt="Image" class="img-responsive margin-bottom-15">
           <p class="about-description">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
           <a href="#" class="about-link about-link-2">Details</a>
         </div>
@@ -156,9 +159,9 @@ http://www.templatemo.com/tm-463-motor
         <p class="tm-banner-description">Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium</p>
         <a href="#" class="tm-banner-link"><i class="fa fa-play"></i></a>
       </div>
-      
+
     </section> <!-- Main content -->
-    
+
     <!--Footer content-->
     <footer class="tm-footer">
       <div class="container">
@@ -195,7 +198,7 @@ http://www.templatemo.com/tm-463-motor
         </div>
       </div>
     </footer> <!-- Footer content-->
-    
+
     <!-- JS -->
     <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>      <!-- jQuery -->
     <script type="text/javascript" src="js/templatemo-script.js"></script>      <!-- Templatemo Script -->
